@@ -1,0 +1,137 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Auth section styles */
+#auth {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+#auth h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#auth input[type="text"], #auth input[type="email"], #auth input[type="tel"], #auth input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#auth button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#auth button:hover {
+    background-color: #0056b3;
+}
+
+#auth p {
+    margin: 10px 0;
+}
+
+/* Chat section styles */
+#chat {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#chat h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+#chat select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#chat input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#chat button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#chat button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling message list */
+#message-list {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+}
+
+#message-list .message {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e9ecef;
+    max-width: 75%;
+    align-self: flex-start;
+}
+
+#message-list .message.sent {
+    background: #007bff;
+    color: #fff;
+    align-self: flex-end;
+}
+
+/* User select and search box */
+#user-select, #search {
+    margin: 10px 0;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
